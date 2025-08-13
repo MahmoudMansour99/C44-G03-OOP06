@@ -1,4 +1,6 @@
-﻿namespace Demo
+﻿using System.Text;
+
+namespace Demo
 {
     internal class Program
     {
@@ -99,8 +101,49 @@
 
             #endregion
 
+            #region Array of Reference Type [Stringbuilder]
+            //StringBuilder[] names01 = [new StringBuilder("Omar")];
+            //StringBuilder[] names02 = new StringBuilder[1];
+
+            //Console.WriteLine($"Hash code of names01 = {names01.GetHashCode()}");
+            //Console.WriteLine($"Hash code of names02 = {names02.GetHashCode()}");
+
+            #region Shallow Copy
+            //names02 = names01;
+
+            //Console.WriteLine($"After Shallow Copy");
+            //Console.WriteLine($"Hashcode of Names01 = {names01.GetHashCode()}");
+            //Console.WriteLine($"Hashcode of Names02 = {names02.GetHashCode()}");
+
+            //Console.WriteLine($"names01[0] = {names01[0]}");
+            //Console.WriteLine($"names02[0] = {names02[0]}");
+
+            //names01[0].Append(" Salma");
+
+            //Console.WriteLine($"After Changing");
+            //Console.WriteLine($"names01[0] = {names01[0]}");
+            //Console.WriteLine($"names02[0] = {names02[0]}");
 
             #endregion
+
+            #region Deep Copy
+            //names02 = (StringBuilder[])names01.Clone();
+
+            //Console.WriteLine("After Deep Copy");
+            //Console.WriteLine($"Hashcode of Names01 = {names01.GetHashCode()}");
+            //Console.WriteLine($"Hashcode of Names02 = {names02.GetHashCode()}");
+
+            //names01[0].Append(" Salma");
+
+            //Console.WriteLine($"After Changing");
+            //Console.WriteLine($"names01[0] = {names01[0]}");
+            //Console.WriteLine($"names02[0] = {names02[0]}");
+
+            #endregion
+            #endregion
+            #endregion
+
+
         }
     }
 }
