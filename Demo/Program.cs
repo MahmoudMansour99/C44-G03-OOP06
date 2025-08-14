@@ -1,4 +1,5 @@
-﻿using Demo.Built_In_Interfaces;
+﻿using Demo.Abstraction;
+using Demo.Built_In_Interfaces;
 using System.Text;
 
 namespace Demo
@@ -215,7 +216,13 @@ namespace Demo
 
             #endregion
 
+            #region Abstraction
+            //Shape shape = new Shape(); Invalid
 
+            //Rectangle rectangle = new Rectangle() { Dim01 = 10, Dim02 = 20 };
+            //Console.WriteLine(rectangle.CalcArea());
+            //Console.WriteLine(rectangle.Perimeter);
+            #endregion
         }
     }
 }
