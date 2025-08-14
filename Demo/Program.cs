@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using Demo.Built_In_Interfaces;
+using System.Text;
 
 namespace Demo
 {
@@ -143,7 +144,37 @@ namespace Demo
             #endregion
             #endregion
 
-            #region Built In Interface
+            #region Built In Interfaces
+
+            #region ICloneable
+            //Employee employee01 = new Employee() { Id = 10, Name = "Omar", Salary = 5000 };
+            //Employee employee02 = new Employee() { Id = 20, Name = "Mona", Salary = 8000 };
+
+            //Console.WriteLine(employee01);
+            //Console.WriteLine($"Employee01 Has Code is {employee01.GetHashCode()}");
+
+            //Console.WriteLine(employee02);
+            //Console.WriteLine($"Employee02 Has Code is {employee02.GetHashCode()}");
+
+            //employee02 = (Employee)employee02.Clone();
+
+            //employee02 = new Employee()
+            //{
+            //    Id = employee01.Id,
+            //    Name = employee01.Name,
+            //    Salary = employee01.Salary,
+            //};
+
+            //employee02 = new Employee(employee01);
+            //Console.WriteLine("After Deep Copy");
+            //Console.WriteLine(employee01);
+            //Console.WriteLine($"Employee01 Has Code is {employee01.GetHashCode()}");
+
+            //Console.WriteLine(employee02);
+            //Console.WriteLine($"Employee02 Has Code is {employee02.GetHashCode()}");
+            #endregion
+
+
 
             #endregion
 
