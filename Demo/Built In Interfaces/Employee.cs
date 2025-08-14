@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Demo.Built_In_Interfaces
 {
-    internal class Employee:ICloneable
+    internal class Employee:ICloneable, IComparable<Employee>
     {
         public int Id { get; set; }
         public string? Name { get; set; }
@@ -37,6 +37,18 @@ namespace Demo.Built_In_Interfaces
         public override string ToString()
         {
             return $"Id = {Id}, Name = {Name}, Salary = {Salary:c}";
+        }
+
+        public int CompareTo(Employee? other)
+        {
+            //if (Salary > other?.Salary)
+            //    return 1;
+            //else if (Salary < other?.Salary)
+            //    return -1;
+            //else
+            //    return 0; 
+
+            return this.Salary.CompareTo(other?.Salary);
         }
     }
 }

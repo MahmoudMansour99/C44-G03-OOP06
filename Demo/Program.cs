@@ -174,6 +174,34 @@ namespace Demo
             //Console.WriteLine($"Employee02 Has Code is {employee02.GetHashCode()}");
             #endregion
 
+            #region ICompareable
+            //int[] numbers = { 4, 5, 6, 9, 1, 2, 7, 5 };
+
+            //Array.Sort(numbers); // Static Method calling with Class Name
+
+            //foreach (var number in numbers)
+            //{
+            //    Console.WriteLine(number);
+            //}
+
+            //Employee[] employees =
+            //{
+            //    new Employee() {Id = 10, Name = "Omar", Salary = 6000},
+            //    new Employee() {Id = 20, Name = "Ahmed", Salary = 10000},
+            //    new Employee() {Id = 30, Name = "Sama", Salary = 4000},
+            //    new Employee() {Id = 40, Name = "May", Salary = 5000},
+            //};
+
+            //Array.Sort(employees);
+            //Array.Reverse(employees);
+
+            //foreach (Employee employee in employees)
+            //{
+            //    Console.WriteLine(employee);
+            //}
+
+            #endregion
+
 
 
             #endregion
