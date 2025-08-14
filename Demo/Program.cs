@@ -223,6 +223,8 @@ namespace Demo
             //Console.WriteLine(rectangle.CalcArea());
             //Console.WriteLine(rectangle.Perimeter);
             #endregion
+
+
         }
     }
 }
