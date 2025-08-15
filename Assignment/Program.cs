@@ -1,6 +1,8 @@
 ﻿using Assignment.First_Project;
+using Assignment.Second_Project;
 using System.Drawing;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using Math = Assignment.Second_Project.Math;
 
 namespace Assignment
 {
@@ -79,7 +81,25 @@ namespace Assignment
 
             #endregion
 
+            #region Second Project:
+            // Define Class Maths that has four methods:
+            // ● Add()
+            // ● Subtract()
+            // ● Multiply()
+            // ● Divide()
+            // Each of them takes two parameters. Call each method in Main().
+            // NOTE : Modify the program so that you do not have to create an instance of
+            // class to call the four methods.
+
+            //Console.WriteLine(Math.Add(10, 15));
+            //Console.WriteLine(Math.Subtract(15, 10));
+            //Console.WriteLine(Math.Multiply(10, 15));
+            //Console.WriteLine(Math.Divide(15, 0));
+            //Console.WriteLine(Math.Divide(15, 5));
+
+            #endregion
+
 
         }
-    }
+}
 }
